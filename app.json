@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "RNCourse",
-    "slug": "RNCourse",
+    "name": "summergoalsapp",
+    "slug": "summergoalsapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,18 +12,30 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.yuhao1949.summerGoalsApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ebf15a4d-4115-4381-8895-f2a63ae784d5"
+      }
     }
   }
 }

@@ -4,7 +4,7 @@ export default function App() {
   return (
     <View style={styles.appContainer}>
       <View style={styles.inputContainer}>
-        <TextInput placeholder='Your summer goal!' style={styles.textInput} />
+        <TextInput placeholder='Your summer 2025 goal' style={styles.textInput} />
         <Button title='Add Goal' />
       </View>
       <View style={styles.goalsContainer}>

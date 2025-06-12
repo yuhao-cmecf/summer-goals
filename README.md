@@ -1,3 +1,7 @@
+# THis is a React Native app built with Expo
+
+## add "google-service-account.json" to the project to enable Google Play Store submission with expo
+
 # Buid & Deploy Expo App to App Store
 
 ## Expo Dev Account Login
